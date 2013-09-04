@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51B17D9F1665468900B35CBD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B17D9E1665468900B35CBD /* Default-568h@2x.png */; };
+		51F0029A146832AC002F14B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F00299146832AC002F14B9 /* UIKit.framework */; };
+		51F0029C146832AC002F14B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F0029B146832AC002F14B9 /* Foundation.framework */; };
+		51F0029E146832AC002F14B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F0029D146832AC002F14B9 /* CoreGraphics.framework */; };
+		51F002A4146832AC002F14B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51F002A2146832AC002F14B9 /* InfoPlist.strings */; };
+		51F002A6146832AC002F14B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F002A5146832AC002F14B9 /* main.m */; };
+		51F002AA146832AC002F14B9 /* PA4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F002A9146832AC002F14B9 /* PA4AppDelegate.m */; };
+		51F002AD146832AC002F14B9 /* PA4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F002AC146832AC002F14B9 /* PA4ViewController.m */; };
+		51F002B0146832AC002F14B9 /* PA4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51F002AE146832AC002F14B9 /* PA4ViewController.xib */; };
+		51F002B7146832BF002F14B9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F002B6146832BF002F14B9 /* AudioToolbox.framework */; };
+		51F002CB146833E2002F14B9 /* PlayFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F002C4146833E1002F14B9 /* PlayFieldView.m */; };
+		51F002CC146833E2002F14B9 /* SlideBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F002C5146833E2002F14B9 /* SlideBlock.m */; };
+		51F002CD146833E2002F14B9 /* Wood Whack.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51F002C6146833E2002F14B9 /* Wood Whack.wav */; };
+		51F002CE146833E2002F14B9 /* BlockMove.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51F002C9146833E2002F14B9 /* BlockMove.caf */; };
+		51F002CF146833E2002F14B9 /* LevelComplete.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51F002CA146833E2002F14B9 /* LevelComplete.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51B17D9E1665468900B35CBD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		51F00295146832AC002F14B9 /* dpu-mad-unblockMeClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dpu-mad-unblockMeClone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F00299146832AC002F14B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		51F0029B146832AC002F14B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		51F0029D146832AC002F14B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		51F002A1146832AC002F14B9 /* dpu-mad-unblockMeClone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dpu-mad-unblockMeClone-Info.plist"; sourceTree = "<group>"; };
+		51F002A3146832AC002F14B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51F002A5146832AC002F14B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51F002A7146832AC002F14B9 /* dpu-mad-unblockMeClone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dpu-mad-unblockMeClone-Prefix.pch"; sourceTree = "<group>"; };
+		51F002A8146832AC002F14B9 /* PA4AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PA4AppDelegate.h; sourceTree = "<group>"; };
+		51F002A9146832AC002F14B9 /* PA4AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PA4AppDelegate.m; sourceTree = "<group>"; };
+		51F002AB146832AC002F14B9 /* PA4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PA4ViewController.h; sourceTree = "<group>"; };
+		51F002AC146832AC002F14B9 /* PA4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PA4ViewController.m; sourceTree = "<group>"; };
+		51F002AF146832AC002F14B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PA4ViewController.xib; sourceTree = "<group>"; };
+		51F002B6146832BF002F14B9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		51F002C4146833E1002F14B9 /* PlayFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayFieldView.m; sourceTree = "<group>"; };
+		51F002C5146833E2002F14B9 /* SlideBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideBlock.m; sourceTree = "<group>"; };
+		51F002C6146833E2002F14B9 /* Wood Whack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Wood Whack.wav"; sourceTree = "<group>"; };
+		51F002C7146833E2002F14B9 /* PlayFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayFieldView.h; sourceTree = "<group>"; };
+		51F002C8146833E2002F14B9 /* SlideBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideBlock.h; sourceTree = "<group>"; };
+		51F002C9146833E2002F14B9 /* BlockMove.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BlockMove.caf; sourceTree = "<group>"; };
+		51F002CA146833E2002F14B9 /* LevelComplete.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LevelComplete.caf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51F00292146832AC002F14B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F002B7146832BF002F14B9 /* AudioToolbox.framework in Frameworks */,
+				51F0029A146832AC002F14B9 /* UIKit.framework in Frameworks */,
+				51F0029C146832AC002F14B9 /* Foundation.framework in Frameworks */,
+				51F0029E146832AC002F14B9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51F0028A146832AC002F14B9 = {
+			isa = PBXGroup;
+			children = (
+				51B17D9E1665468900B35CBD /* Default-568h@2x.png */,
+				51F0029F146832AC002F14B9 /* PA4 */,
+				51F00298146832AC002F14B9 /* Frameworks */,
+				51F00296146832AC002F14B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51F00296146832AC002F14B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51F00295146832AC002F14B9 /* dpu-mad-unblockMeClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51F00298146832AC002F14B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51F002B6146832BF002F14B9 /* AudioToolbox.framework */,
+				51F00299146832AC002F14B9 /* UIKit.framework */,
+				51F0029B146832AC002F14B9 /* Foundation.framework */,
+				51F0029D146832AC002F14B9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51F0029F146832AC002F14B9 /* PA4 */ = {
+			isa = PBXGroup;
+			children = (
+				51F002CA146833E2002F14B9 /* LevelComplete.caf */,
+				51F002C9146833E2002F14B9 /* BlockMove.caf */,
+				51F002C6146833E2002F14B9 /* Wood Whack.wav */,
+				51F002A8146832AC002F14B9 /* PA4AppDelegate.h */,
+				51F002A9146832AC002F14B9 /* PA4AppDelegate.m */,
+				51F002AB146832AC002F14B9 /* PA4ViewController.h */,
+				51F002AC146832AC002F14B9 /* PA4ViewController.m */,
+				51F002AE146832AC002F14B9 /* PA4ViewController.xib */,
+				51F002C7146833E2002F14B9 /* PlayFieldView.h */,
+				51F002C4146833E1002F14B9 /* PlayFieldView.m */,
+				51F002C8146833E2002F14B9 /* SlideBlock.h */,
+				51F002C5146833E2002F14B9 /* SlideBlock.m */,
+				51F002A0146832AC002F14B9 /* Supporting Files */,
+			);
+			path = PA4;
+			sourceTree = "<group>";
+		};
+		51F002A0146832AC002F14B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51F002A1146832AC002F14B9 /* dpu-mad-unblockMeClone-Info.plist */,
+				51F002A2146832AC002F14B9 /* InfoPlist.strings */,
+				51F002A5146832AC002F14B9 /* main.m */,
+				51F002A7146832AC002F14B9 /* dpu-mad-unblockMeClone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51F00294146832AC002F14B9 /* dpu-mad-unblockMeClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51F002B3146832AC002F14B9 /* Build configuration list for PBXNativeTarget "dpu-mad-unblockMeClone" */;
+			buildPhases = (
+				51F00291146832AC002F14B9 /* Sources */,
+				51F00292146832AC002F14B9 /* Frameworks */,
+				51F00293146832AC002F14B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dpu-mad-unblockMeClone";
+			productName = PA4;
+			productReference = 51F00295146832AC002F14B9 /* dpu-mad-unblockMeClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51F0028C146832AC002F14B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 51F0028F146832AC002F14B9 /* Build configuration list for PBXProject "dpu-mad-unblockMeClone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 51F0028A146832AC002F14B9;
+			productRefGroup = 51F00296146832AC002F14B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51F00294146832AC002F14B9 /* dpu-mad-unblockMeClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51F00293146832AC002F14B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F002A4146832AC002F14B9 /* InfoPlist.strings in Resources */,
+				51F002B0146832AC002F14B9 /* PA4ViewController.xib in Resources */,
+				51F002CD146833E2002F14B9 /* Wood Whack.wav in Resources */,
+				51F002CE146833E2002F14B9 /* BlockMove.caf in Resources */,
+				51F002CF146833E2002F14B9 /* LevelComplete.caf in Resources */,
+				51B17D9F1665468900B35CBD /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51F00291146832AC002F14B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F002A6146832AC002F14B9 /* main.m in Sources */,
+				51F002AA146832AC002F14B9 /* PA4AppDelegate.m in Sources */,
+				51F002AD146832AC002F14B9 /* PA4ViewController.m in Sources */,
+				51F002CB146833E2002F14B9 /* PlayFieldView.m in Sources */,
+				51F002CC146833E2002F14B9 /* SlideBlock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		51F002A2146832AC002F14B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51F002A3146832AC002F14B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		51F002AE146832AC002F14B9 /* PA4ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51F002AF146832AC002F14B9 /* en */,
+			);
+			name = PA4ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51F002B1146832AC002F14B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51F002B2146832AC002F14B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51F002B4146832AC002F14B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PA4/dpu-mad-unblockMeClone-Prefix.pch";
+				INFOPLIST_FILE = "PA4/dpu-mad-unblockMeClone-Info.plist";
+				PRODUCT_NAME = "dpu-mad-unblockMeClone";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		51F002B5146832AC002F14B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PA4/dpu-mad-unblockMeClone-Prefix.pch";
+				INFOPLIST_FILE = "PA4/dpu-mad-unblockMeClone-Info.plist";
+				PRODUCT_NAME = "dpu-mad-unblockMeClone";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51F0028F146832AC002F14B9 /* Build configuration list for PBXProject "dpu-mad-unblockMeClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51F002B1146832AC002F14B9 /* Debug */,
+				51F002B2146832AC002F14B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51F002B3146832AC002F14B9 /* Build configuration list for PBXNativeTarget "dpu-mad-unblockMeClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51F002B4146832AC002F14B9 /* Debug */,
+				51F002B5146832AC002F14B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51F0028C146832AC002F14B9 /* Project object */;
+}
